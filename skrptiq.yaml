@@ -1,0 +1,40 @@
+# --- Identity ---
+name: "ad-copy-pipeline"
+display_name: "Ad Copy Pipeline"
+description: "Audience targeting, copy generation, variant testing, and optimisation"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/ad-copy-pipeline"
+
+# --- Discovery (Hub) ---
+category: "marketing"
+tags:
+  - "advertising"
+  - "ad-copy"
+  - "conversion"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+    - "openai-gpt4"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 3
+  prompts: 1
+  workflows: 1
+  services: 0
+  sources: 2
+  documents: 1
+  assets: 1
+  total: 9
