@@ -5,7 +5,7 @@ title: Ad Copy Generator
 description: "Creates platform-specific ad copy with character limits"
 tags: [Customer-Facing]
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
   - target: brand-voice-guidelines
     type: references
