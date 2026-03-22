@@ -11,17 +11,18 @@ connections:
     type: references
 ---
 
-Write ad copy for {{platform}} targeting {{audience_segment}}. The goal is {{campaign_goal}}.
+### Inputs
+
+- **Key messages:** {{input.key_messages}}
+- **Platform constraints:** {{input.platform_constraints}}
+
+This prompt receives the audience segment profiles produced by Stage 1. Use the segmentation output — including demographics, psychographics, and preferred channels — to target the copy appropriately. Apply the platform constraints provided to set appropriate character limits for headlines and descriptions.
 
 ## Constraints
-- Headline: max {{headline_chars}} characters
-- Description: max {{description_chars}} characters
+- Respect the platform-specific character limits provided in the platform constraints input
 - Must include a clear CTA
 
 ## Brand Voice
-{{brand_voice}}
-
-## Key Messages
-{{key_messages}}
+Derive the brand voice from the key messages and customer data context.
 
 Provide 5 variants with different angles (benefit-led, problem-solution, social proof, urgency, curiosity).

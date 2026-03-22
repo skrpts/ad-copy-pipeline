@@ -3,7 +3,7 @@ type: skill
 id: conversion-optimisation
 title: Conversion Optimisation
 description: "Identifies and resolves friction points in the customer journey to improve conversion rates"
-tags: [Needs Review]
+tags: [Production]
 connections:
   - target: llm-service
     type: runs_on

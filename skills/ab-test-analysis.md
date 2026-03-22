@@ -3,7 +3,7 @@ type: skill
 id: ab-test-analysis
 title: A/B Test Analysis
 description: "Interprets experiment results and recommends winning variants"
-tags: []
+tags: [Production]
 connections:
   - target: llm-service
     type: runs_on
