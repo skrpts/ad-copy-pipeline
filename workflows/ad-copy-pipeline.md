@@ -12,7 +12,9 @@ connections:
   - target: ab-test-analysis
     type: uses
   - target: conversion-optimisation
-    type: uses
+    type: uses  - target: llm-service
+    type: runs_on
+
 metadata:
   estimated_duration: "10-20 minutes"
   trigger: manual
