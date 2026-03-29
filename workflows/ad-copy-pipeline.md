@@ -12,7 +12,8 @@ connections:
   - target: ab-test-analysis
     type: uses
   - target: conversion-optimisation
-    type: uses  - target: llm-service
+    type: uses
+  - target: llm-service
     type: runs_on
 
 metadata:
