@@ -3,7 +3,7 @@ type: source
 id: campaign-performance-benchmarks
 title: Campaign Performance Benchmarks
 description: "Industry benchmarks for advertising and marketing metrics by channel"
-tags: [Production, writing:copy, data:metrics]
+tags: [Production, Campaign, Metrics, Writing]
 connections: []
 ---
 

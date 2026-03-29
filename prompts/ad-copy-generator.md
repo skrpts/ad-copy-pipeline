@@ -3,7 +3,7 @@ type: prompt
 id: ad-copy-generator
 title: Ad Copy Generator
 description: "Creates platform-specific ad copy with character limits"
-tags: [Customer-Facing, writing:copy, analysis:audience]
+tags: [Customer-Facing, Writing, Audience]
 connections:
   - target: llm-service
     type: runs_on
