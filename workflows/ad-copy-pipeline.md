@@ -3,7 +3,7 @@ type: workflow
 id: ad-copy-pipeline
 title: Ad Copy Pipeline
 description: "Audience targeting, copy generation, variant testing, and optimisation"
-tags: [Production]
+tags: [Production, writing:copy, analysis:audience]
 connections:
   - target: audience-segmentation
     type: uses

@@ -3,7 +3,7 @@ type: asset
 id: utm-parameter-template
 title: UTM Parameter Template
 description: "Standard UTM naming conventions for campaign tracking"
-tags: [Production]
+tags: [Production, planning:campaign, writing:copy]
 connections: []
 ---
 
