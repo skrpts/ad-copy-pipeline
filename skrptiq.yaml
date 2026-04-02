@@ -3,7 +3,7 @@ id: "05c1e486-3c4d-4fe8-a617-82431bb6fc2c"
 name: "ad-copy-pipeline"
 display_name: "Ad Copy Pipeline"
 description: "Audience targeting, copy generation, variant testing, and optimisation"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=1.0.0"
 
 # --- Attribution ---

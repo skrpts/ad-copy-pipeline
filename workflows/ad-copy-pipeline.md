@@ -16,12 +16,12 @@ connections:
   - target: llm-service
     type: runs_on
 
+  - target: ab-testing-protocol
+  - target: utm-parameter-template
 metadata:
   estimated_duration: "10-20 minutes"
   trigger: manual
-  - target: ab-testing-protocol
     type: references
-  - target: utm-parameter-template
     type: references
 ---
 
