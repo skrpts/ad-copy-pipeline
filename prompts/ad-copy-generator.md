@@ -15,7 +15,7 @@ connections:
 
 - **Key messages:** {{input.key_messages}}
 - **Platform constraints:** {{input.platform_constraints}}
-- **Audience segment profiles:** {{steps.audience-segmentation.output}}
+- **Audience segment profiles:** {{steps.Audience Segmentation.output}}
 
 Use the segmentation output — including demographics, psychographics, and preferred channels — to target the copy appropriately. Apply the platform constraints provided to set appropriate character limits for headlines and descriptions.
 
