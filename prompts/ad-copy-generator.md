@@ -4,6 +4,19 @@ id: ad-copy-generator
 title: Ad Copy Generator
 description: "Creates platform-specific ad copy with character limits"
 tags: [Customer-Facing, Writing, Audience]
+inputs:
+  key_messages:
+    label: "Key Messages"
+    description: "Core messages to communicate"
+    example: "Save 10 hours/week on repetitive AI tasks. No code required."
+    required: true
+    type: text
+  platform_constraints:
+    label: "Platform Constraints"
+    description: "Technical or platform constraints"
+    example: "Must work on mobile web. No native app. 3G connection support."
+    required: true
+    type: text
 connections:
   - target: llm-service
     type: runs_on
