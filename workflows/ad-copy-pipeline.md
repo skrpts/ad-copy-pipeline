@@ -20,6 +20,15 @@ connections:
 metadata:
   estimated_duration: "10-20 minutes"
   trigger: manual
+execution:
+  - skill: "audience-segmentation"
+    step_type: "synthesis"
+  - skill: "ab-test-analysis"
+    step_type: "synthesis"
+    input_from: "audience-segmentation"
+  - skill: "conversion-optimisation"
+    step_type: "synthesis"
+    input_from: "ab-test-analysis"
 ---
 
 ## Overview
