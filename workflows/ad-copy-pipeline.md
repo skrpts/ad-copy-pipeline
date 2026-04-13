@@ -25,10 +25,8 @@ execution:
     step_type: "synthesis"
   - skill: "ab-test-analysis"
     step_type: "synthesis"
-    input_from: "audience-segmentation"
   - skill: "conversion-optimisation"
     step_type: "synthesis"
-    input_from: "ab-test-analysis"
 ---
 
 ## Overview
