@@ -28,6 +28,8 @@ composite_steps:
 execution:
   - skill: "audience-segmentation"
     step_type: "synthesis"
+    context:
+      market_context: ""
   - skill: "ab-test-analysis"
     step_type: "synthesis"
   - skill: "conversion-optimisation"
