@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: conversion-optimisation
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: ab-testing-protocol
@@ -20,7 +22,7 @@ connections:
 metadata:
   estimated_duration: "10-20 minutes"
   trigger: manual
-output_step: "conversion-optimisation"
+output_step: "language-polish"
 composite_steps:
   - "audience-segmentation"
   - "ab-test-analysis"
@@ -28,6 +30,7 @@ composite_steps:
 execution:
   - skill: "audience-segmentation"
     step_type: "synthesis"
+    prompt: "ad-campaign-brief"
     context:
       market_context: ""
   - skill: "ab-test-analysis"
@@ -93,7 +96,10 @@ Invoke the **conversion-optimisation** skill to identify drop-off points in the 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+|------|----------
+  - skill: "language-polish"
+    step_type: "content"
+---|
 | Segment profiles | Segment profiles with demographics, psychographics, and preferred channels |
 | 5 ad copy variants per segment per platform | 5 ad copy variants per segment per platform |
 | Winner recommendation | Winner recommendation with effect size and follow-up suggestions |
