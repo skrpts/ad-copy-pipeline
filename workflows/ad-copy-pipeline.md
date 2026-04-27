@@ -34,8 +34,10 @@ execution:
     context:
       market_context: ""
   - skill: "ab-test-analysis"
+    prompt: "analyse-ab-test"
     step_type: "synthesis"
   - skill: "conversion-optimisation"
+    prompt: "optimise-conversion"
     step_type: "synthesis"
 ---
 

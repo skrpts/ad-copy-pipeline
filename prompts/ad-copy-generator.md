@@ -18,6 +18,8 @@ inputs:
     required: true
     type: text
 connections:
+  - target: audience-segmentation
+    type: derived_from
   - target: llm-service
     type: runs_on
   - target: brand-voice-guide
