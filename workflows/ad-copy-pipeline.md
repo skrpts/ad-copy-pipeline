@@ -39,6 +39,12 @@ execution:
   - skill: "conversion-optimisation"
     prompt: "optimise-conversion"
     step_type: "synthesis"
+  - skill: "language-polish"
+    step_type: "content"
+    prompt: "polish-language"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
 ---
 
 ## Overview
@@ -98,10 +104,7 @@ Invoke the **conversion-optimisation** skill to identify drop-off points in the 
 ## Outputs
 
 | Name | Description |
-|------|----------
-  - skill: "language-polish"
-    step_type: "content"
----|
+|------|-------------|
 | Segment profiles | Segment profiles with demographics, psychographics, and preferred channels |
 | 5 ad copy variants per segment per platform | 5 ad copy variants per segment per platform |
 | Winner recommendation | Winner recommendation with effect size and follow-up suggestions |
