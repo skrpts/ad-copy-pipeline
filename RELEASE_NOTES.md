@@ -1,5 +1,11 @@
 # Release Notes
 
+## v1.1.19
+Tags migrated inline into manifest (GH#586). tags.yaml retired.
+
+## v1.1.18
+Bundle re-signed with canonical engine signing pipeline (Wave 2 migration).
+
 ## v1.1.17
 Signature fix — RELEASE_NOTES.md now included in integrity checksum.
 
