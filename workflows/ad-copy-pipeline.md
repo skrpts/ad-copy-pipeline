@@ -31,17 +31,21 @@ execution:
   - skill: "audience-segmentation"
     step_type: "synthesis"
     prompt: "ad-campaign-brief"
+    output: { name: "campaign_brief", type: "text" }
     context:
       market_context: "No additional market context"
   - skill: "ab-test-analysis"
     prompt: "analyse-ab-test"
     step_type: "synthesis"
+    output: { name: "ab_test_analysis", type: "text" }
   - skill: "conversion-optimisation"
     prompt: "optimise-conversion"
     step_type: "synthesis"
+    output: { name: "conversion_recommendations", type: "text" }
   - skill: "language-polish"
     step_type: "content"
     prompt: "polish-language"
+    output: { name: "polished_ad_copy", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
