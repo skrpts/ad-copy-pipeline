@@ -3,7 +3,7 @@ type: document
 id: ab-testing-protocol
 title: A/B Testing Protocol
 description: "Standard process for running marketing experiments"
-tags: [Internal, Optimisation, Writing]
+tags: [Internal, Optimization, Writing]
 connections: []
 ---
 

@@ -2,8 +2,8 @@
 id: "05c1e486-3c4d-4fe8-a617-82431bb6fc2c"
 name: "ad-copy-pipeline"
 display_name: "Ad Copy Pipeline"
-description: "Audience targeting, copy generation, variant testing, and optimisation"
-version: "1.1.22"
+description: "Audience targeting, copy generation, variant testing, and optimization"
+version: "1.1.23"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -25,40 +25,40 @@ tags:
 dependencies:
   - id: "1e7fce17-e118-4d00-9e90-2a18c58ae212"
     name: "analyse-ab-test"
-    version: 1.0.1
-    checksum: "sha256:68d612846819987104b775295823f1753110cba2d8f85ef04a0ead5f1eb8a05c"
+    version: 1.0.3
+    checksum: "sha256:297967d22749c86c50103d024cb59ce2d54ea5667e3d57e902f81e8537bad6ac"
   - id: "977ca840-8322-4df1-bc13-98d43b3e41a8"
     name: "audience-segmentation"
     version: 1.0.1
     checksum: "sha256:bcd35f100fcf4843c8b8583541ae60952e1cb5d6001700f56c5e85533f0f672b"
   - id: "89a5666b-057e-4acc-9c1b-15858bd832dd"
     name: "brand-voice-guide"
-    version: 1.0.1
-    checksum: "sha256:8cd3ac3f349380983bbb796a66d6222fbf59f0cf85fbda7dc278c28a6339adb8"
+    version: 1.0.3
+    checksum: "sha256:f29ebcd4fd0e28cac60214ea1f9626d781ed0277c8ecdd8fa15d7caa4a470336"
   - id: "847dbe80-fe03-452c-be57-052a527f5e87"
     name: "campaign-performance-benchmarks"
     version: 1.0.1
     checksum: "sha256:eb6a5a515b11d9d03f972b4781b4f9789e93d6524ada98658d13c9811f7b55e1"
   - id: "3db66b8b-8758-4503-a555-5330f3f9b3d9"
     name: "language-polish"
-    version: 1.0.1
-    checksum: "sha256:ca27d401a2049f5508f0c6d5dc387a2fc4b3b4e61b439d5e8f717b448708b18b"
+    version: 1.0.3
+    checksum: "sha256:efe38bb2b4ba213139299818cc4c7d694270fcfd7ec4d3c738e2170f6394bbd6"
   - id: "fcab9536-a13e-49c9-b0c3-bb3097682e69"
     name: "llm-service"
-    version: 1.0.1
-    checksum: "sha256:455c8bf590a9426d830bffd1a741afa058149bc29c58186c34d0d8699bea4bda"
+    version: 1.0.3
+    checksum: "sha256:18783015383c041de9c3fdaa191b79172ab534348448c20c74f9a967ab4dd917"
   - id: "73ec1f43-ed87-4ed1-bb1b-13f180604cdb"
     name: "optimise-conversion"
-    version: 1.0.1
-    checksum: "sha256:6f103d352b40f4185d1229fae0db6d32359ff52889fe7ee0ea2e75a5815d413b"
+    version: 1.0.3
+    checksum: "sha256:390cc9d5b6f1d36359ad3d4118770900f9b2c16a87e7eb2a1929d9c305eb8d99"
   - id: "9b1771e0-39b0-4fbc-8d45-738f51b6083a"
     name: "polish-language"
     version: 1.0.1
     checksum: "sha256:2a666b1a1566e45a3d69cf3fac51399a471169184409ef54d588f69b7da7097e"
   - id: "18479da6-a5f3-4755-b9a4-5bdbc9196b0d"
     name: "segment-audience"
-    version: 1.0.1
-    checksum: "sha256:0b175d41bfbf4caba8ef410095f2fbdfd3084352376817a96259340e07ad09e4"
+    version: 1.0.5
+    checksum: "sha256:862cccc2bdc4b9b3c862aa6405c9969b0aa32c42f785611ec4fca7d602e0ba96"
 
 requires:
   services:
@@ -80,7 +80,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-03T15:47:29.923Z"
+  scanned_at: "2026-07-16T20:21:43.006Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

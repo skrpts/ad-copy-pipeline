@@ -1,9 +1,9 @@
 ---
 type: skill
 id: conversion-optimisation
-title: Conversion Optimisation
+title: Conversion Optimization
 description: "Identifies and resolves friction points in the customer journey to improve conversion rates"
-tags: [Production, Optimisation, Writing]
+tags: [Production, Optimization, Writing]
 connections:
   - target: llm-service
     type: runs_on
@@ -13,14 +13,14 @@ connections:
 
 ## Capability
 
-Analyses conversion funnels, landing pages, and user flows to identify drop-off points and recommend improvements.
+Analyzes conversion funnels, landing pages, and user flows to identify drop-off points and recommend improvements.
 
 ## When to Use
 
 - Landing page underperformance
 - Low email click-through rates
 - Shopping cart abandonment
-- Lead form optimisation
+- Lead form optimization
 
 ## Inputs
 
@@ -28,4 +28,4 @@ Funnel data, page analytics, heatmaps, user recordings, current conversion rates
 
 ## Outputs
 
-Prioritised list of optimisation recommendations with expected impact and implementation effort
+Prioritized list of optimization recommendations with expected impact and implementation effort

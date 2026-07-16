@@ -37,7 +37,7 @@ metadata:
   prompt_type: task
 ---
 
-You are an advertising strategist. Analyse the target audience for this ad campaign and produce audience segments.
+You are an advertising strategist. Analyze the target audience for this ad campaign and produce audience segments.
 
 **Product:** {{input.product_name}}
 **Target audience:** {{input.target_audience}}

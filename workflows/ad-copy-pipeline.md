@@ -2,7 +2,7 @@
 type: workflow
 id: ad-copy-pipeline
 title: Ad Copy Pipeline
-description: "Audience targeting, copy generation, variant testing, and optimisation"
+description: "Audience targeting, copy generation, variant testing, and optimization"
 tags: [Production, Audience, Writing]
 connections:
   - target: audience-segmentation
@@ -53,13 +53,13 @@ execution:
 
 ## Overview
 
-This workflow produces platform-specific ad copy from audience research through to performance optimisation. It combines segmentation, creative generation, and data-driven testing to maximise ad effectiveness.
+This workflow produces platform-specific ad copy from audience research through to performance optimization. It combines segmentation, creative generation, and data-driven testing to maximize ad effectiveness.
 
 ## Pipeline Stages
 
 ### Stage 1: Audience Segmentation
 
-**Input:** Customer data, survey results, behavioural analytics
+**Input:** Customer data, survey results, behavioral analytics
 
 Invoke the **audience-segmentation** skill to identify distinct audience segments with shared characteristics and messaging angles.
 
@@ -83,25 +83,25 @@ Invoke the **ab-test-analysis** skill to determine statistical significance, ide
 
 **Output:** Winner recommendation with effect size and follow-up suggestions.
 
-### Stage 4: Conversion Optimisation
+### Stage 4: Conversion Optimization
 
 **Input:** Funnel data, landing page analytics, current conversion rates
 
 Invoke the **conversion-optimisation** skill to identify drop-off points in the post-click journey and recommend improvements.
 
-**Output:** Prioritised optimisation recommendations with expected impact.
+**Output:** Prioritized optimization recommendations with expected impact.
 
 ## Error Handling
 
-- If no segment shows clear differentiation, gather more behavioural data before proceeding
+- If no segment shows clear differentiation, gather more behavioral data before proceeding
 - If ad variants perform similarly, test more divergent creative angles rather than minor copy tweaks
-- If conversion optimisation reveals landing page issues, address those before scaling ad spend
+- If conversion optimization reveals landing page issues, address those before scaling ad spend
 
 ## Inputs
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.customer_data}}` | Yes | Customer, survey, or behavioural data that will inform audience segments | `Recent survey notes, CRM export, and campaign performance summary` |
+| `{{input.customer_data}}` | Yes | Customer, survey, or behavioral data that will inform audience segments | `Recent survey notes, CRM export, and campaign performance summary` |
 | `{{input.key_messages}}` | Yes | The offer, product positioning, or campaign messages you want to test | `Save time on weekly reporting with automated executive summaries` |
 | `{{input.platform_constraints}}` | No | Any channel-specific limits or requirements | `LinkedIn 150 characters, Google Ads 30-character headlines` |
 
@@ -112,14 +112,14 @@ Invoke the **conversion-optimisation** skill to identify drop-off points in the 
 | Segment profiles | Segment profiles with demographics, psychographics, and preferred channels |
 | 5 ad copy variants per segment per platform | 5 ad copy variants per segment per platform |
 | Winner recommendation | Winner recommendation with effect size and follow-up suggestions |
-| Prioritised optimisation recommendations | Prioritised optimisation recommendations with expected impact |
+| Prioritized optimization recommendations | Prioritized optimization recommendations with expected impact |
 
 ## Setup
 
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

@@ -3,7 +3,7 @@ type: skill
 id: ab-test-analysis
 title: A/B Test Analysis
 description: "Interprets experiment results and recommends winning variants"
-tags: [Production, Optimisation, Writing]
+tags: [Production, Optimization, Writing]
 connections:
   - target: llm-service
     type: runs_on
@@ -11,12 +11,12 @@ connections:
 
 ## Capability
 
-Analyses A/B and multivariate test results for statistical significance, practical impact, and actionable insights.
+Analyzes A/B and multivariate test results for statistical significance, practical impact, and actionable insights.
 
 ## When to Use
 
 - Email subject line testing
-- Landing page optimisation
+- Landing page optimization
 - Ad creative testing
 - Pricing experiments
 
