@@ -7,6 +7,8 @@ tags: [Production, Audience, Writing]
 connections:
   - target: audience-segmentation
     type: uses
+  - target: ad-copy-generation
+    type: uses
   - target: ab-test-analysis
     type: uses
   - target: conversion-optimisation
@@ -25,6 +27,7 @@ metadata:
 output_step: "language-polish"
 composite_steps:
   - "audience-segmentation"
+  - "ad-copy-generation"
   - "ab-test-analysis"
   - "conversion-optimisation"
 execution:
@@ -34,6 +37,14 @@ execution:
     output: { name: "campaign_brief", type: "text" }
     context:
       market_context: "No additional market context"
+  - skill: "ad-copy-generation"
+    step_type: "synthesis"
+    prompt: "ad-copy-generator"
+    output: { name: "ad_copy", type: "text" }
+    bindings:
+      audience_segments:
+        from_step: "Audience Segmentation"
+        field: output
   - skill: "ab-test-analysis"
     prompt: "analyse-ab-test"
     step_type: "synthesis"
@@ -49,6 +60,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Ad Copy Generation"
+        field: output
 ---
 
 ## Overview

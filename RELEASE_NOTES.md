@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.2.0
+GH#863 (K-045 intent/output-mismatch) — wire the `ad-copy-generator` prompt into the workflow so the pipeline actually produces ad copy. Previously the prompt was declared but never invoked: the flow built a campaign brief, then ran A/B and conversion analysis on nothing, then polished nothing. Added an `Ad Copy Generation` step (new backing skill `ad-copy-generation`) after audience segmentation and before the analysis/optimisation/polish stages, bound to the segmentation output. Converted the generator's positional `{{steps.Audience Segmentation.output}}` reference to a `context_params` binding. Re-pinned `polish-language`→1.0.6 and bound its `source` ← the ad-copy step so the output step polishes the real deliverable. Skills 2→3, total 7→8.
+
 ## v1.1.23
 GH#845 — republish with American English (en-US) content, completing the source-only GH#805 flip that never reached the Hub. Copy only — no functional or behaviour change.
 
