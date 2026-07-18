@@ -17,12 +17,6 @@ inputs:
     example: "Must work on mobile web. No native app. 3G connection support."
     required: true
     type: text
-context_params:
-  audience_segments:
-    label: "Audience Segments"
-    description: "Segment profiles from the audience segmentation step — the targeting basis for the copy."
-    required: false
-    default_from_previous: true
 connections:
   - target: audience-segmentation
     type: derived_from
@@ -36,7 +30,7 @@ connections:
 
 - **Key messages:** {{input.key_messages}}
 - **Platform constraints:** {{input.platform_constraints}}
-- **Audience segment profiles:** {{step.context.audience_segments}}
+- **Audience segment profiles:** {{steps.Audience Segmentation.output}}
 
 Use the segmentation output — including demographics, psychographics, and preferred channels — to target the copy appropriately. Apply the platform constraints provided to set appropriate character limits for headlines and descriptions.
 

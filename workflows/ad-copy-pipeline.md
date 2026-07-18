@@ -7,8 +7,6 @@ tags: [Production, Audience, Writing]
 connections:
   - target: audience-segmentation
     type: uses
-  - target: ad-copy-generation
-    type: uses
   - target: ab-test-analysis
     type: uses
   - target: conversion-optimisation

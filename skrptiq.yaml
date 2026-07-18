@@ -69,18 +69,18 @@ requires:
 
 # --- Contents ---
 contents:
-  skills: 3
+  skills: 2
   prompts: 2
   workflows: 1
   services: 0
   sources: 0
   documents: 1
   assets: 1
-  total: 8
+  total: 7
 
 security:
   status: "pass"
-  scanned_at: "2026-07-18T15:55:11.856Z"
+  scanned_at: "2026-07-18T16:12:30.438Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
