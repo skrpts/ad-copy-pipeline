@@ -119,6 +119,9 @@ Invoke the **conversion-optimisation** skill to identify drop-off points in the 
 | `{{input.customer_data}}` | Yes | Customer, survey, or behavioral data that will inform audience segments | `Recent survey notes, CRM export, and campaign performance summary` |
 | `{{input.key_messages}}` | Yes | The offer, product positioning, or campaign messages you want to test | `Save time on weekly reporting with automated executive summaries` |
 | `{{input.platform_constraints}}` | No | Any channel-specific limits or requirements | `LinkedIn 150 characters, Google Ads 30-character headlines` |
+| `{{input.campaign_objective}}` | Yes | What this campaign should achieve | `Drive free trial sign-ups` |
+| `{{input.product_name}}` | Yes | What you are advertising | `CloudSync Pro — team file sharing and collaboration` |
+| `{{input.target_audience}}` | Yes | Who you want to reach | `Small business owners, 10-50 employees, not technical` |
 
 ## Outputs
 
